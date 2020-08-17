@@ -21,6 +21,8 @@ const Index = () => {
           <title>
             💜 Psic. Diana Solís
           </title>
+
+          <link rel="icon" type="image/png" href="/icons/brain.png"/>
         </Head>
 
         <Header />
