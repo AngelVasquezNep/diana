@@ -1,0 +1,31 @@
+.features {
+  display: grid;
+  list-style: none;
+  margin: 3rem 0;
+  padding: 0;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.feature .icon {
+  max-width: 100%;
+  max-width: 8rem;
+  margin: 1rem auto;
+}
+
+.feature .title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.features .feature .title,
+.features .feature .description {
+  text-align: center;
+}

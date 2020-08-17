@@ -1,0 +1,19 @@
+{
+  "name": "diana",
+  "version": "1.0.0",
+  "description": "A psychology page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Ángel Vásquez <angel.vasquez.unam@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

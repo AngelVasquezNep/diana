@@ -1,0 +1,50 @@
+.post {
+  margin-bottom: 4rem;
+}
+.post .post-title {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  position: relative;
+  width: fit-content;
+  color: white;
+}
+.post .post-title:before {
+  content: "";
+  border-radius: 0.2rem;
+  position: absolute;
+  display: inline-block;
+  width: calc(100% + 1rem);
+  height: 150%;
+  right: 0rem;
+  bottom: -30%;
+  margin-right: 5px;
+  z-index: -1;
+  background-color:#fa81408e;
+  background-color:rgba(250, 129, 64, 0.9);
+}
+.post .post-title::after {
+  content: "";
+  border-radius: 0.2rem;
+  position: absolute;
+  display: inline-block;
+  width: calc(100% + 1rem);
+  height: 120%;
+  left: -0.5rem;
+  top: -0.2rem;
+  margin-right: 5px;
+  z-index: -1;
+  background-color:rgba(147, 60, 138, 0.9);
+}
+
+.post .post-content :global(p) {
+  margin-top: 0;
+  text-align: justify;
+}
+
+@media screen and (max-width: 779px) {
+  .post .post-title {
+    margin-bottom: 20%;
+  }
+}
