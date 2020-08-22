@@ -36,7 +36,7 @@ const TeamFeature = ({ icon, title, description }) => (
 );
 
 const OnlineTeam = () => (
-  <Post title="Ayuca psicológica confiable">
+  <Post title="Ayuda psicológica confiable">
     <div className={styles["online-team-container"]}>
       <ul className={styles["features"]}>
         {features.map((feature, index) => (
