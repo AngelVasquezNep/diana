@@ -19,7 +19,7 @@ const features = [
   {
     icon: "/icons/table.svg",
     title: "Accesible",
-    description: "Psicólogia para todo aquel que lo necesite",
+    description: "Psicología para todo aquel que lo necesite",
   },
 ];
 

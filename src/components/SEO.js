@@ -6,7 +6,7 @@ const SEO_TAGS = [
     type: "HOME",
     title: "Psicóloga Diana Solís",
     description:
-      "Soy una profesional de la psicólogia con muchos años de experiencia, me he especializado en diversas áreas de la salud y junto con un equipo de expertos contamos con todas las herramientas necesarias para apoyarte con lo que necesites.",
+      "Soy una profesional de la psicología con muchos años de experiencia, me he especializado en diversas áreas de la salud y junto con un equipo de expertos contamos con todas las herramientas necesarias para apoyarte con lo que necesites.",
     tags: [
       {
         property: "og:title",
@@ -15,7 +15,7 @@ const SEO_TAGS = [
       {
         property: "og:description",
         content:
-          "Soy una profesional de la psicólogia con muchos años de experiencia, me he especializado en diversas áreas de la salud y junto con un equipo de expertos contamos con todas las herramientas necesarias para apoyarte con lo que necesites.",
+          "Soy una profesional de la psicología con muchos años de experiencia, me he especializado en diversas áreas de la salud y junto con un equipo de expertos contamos con todas las herramientas necesarias para apoyarte con lo que necesites.",
       },
       {
         property: "og:type",
